@@ -1,0 +1,8 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "node-env",
+  "projectType": "library",
+  "sourceRoot": "libs/node-env/src",
+  "tags": ["node"],
+  "targets": {}
+}

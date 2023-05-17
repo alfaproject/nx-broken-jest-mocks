@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "lambda-entity",
+  "projectType": "library",
+  "sourceRoot": "libs/lambda-entity/src",
+  "tags": ["lambda"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "options": {
+        "jestConfig": "libs/lambda-entity/jest.config.ts"
+      },
+      "outputs": ["{workspaceRoot}/coverage/libs/lambda-entity"]
+    }
+  }
+}

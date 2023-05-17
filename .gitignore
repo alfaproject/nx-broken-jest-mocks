@@ -1,0 +1,12 @@
+# Node
+node_modules
+yarn-error.log
+
+# TypeScript
+dist
+
+# Jest
+coverage
+
+# OS
+.DS_Store
